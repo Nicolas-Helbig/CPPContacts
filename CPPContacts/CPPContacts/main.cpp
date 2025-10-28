@@ -95,7 +95,7 @@ void AddNewContact(){
     Contact newContact(name, age, isFemale, initial, height, eyeColor);
     Contacts.push_back(newContact);
     
-    cout << "Congratulations, your Contact has been added.\nYour contact list currently contains:\n" << endl;
+    cout << "Congratulations, your contact has been added.\nYour contact list currently contains:\n" << endl;
     DisplayContactsList();
 }
 
