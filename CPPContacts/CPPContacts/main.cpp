@@ -118,7 +118,7 @@ void DisplayContactsList(){
                 break;
         }
         
-        cout << ct.getName() << "\t" << ct.getAge() << "\t\t"  << (ct.getIsFemale() ? "Female" : "Male") << "\t\t"  << ct.getInitial() << "\t\t\t"  << ct.getHeight() << "\t\t" << eyeColor << endl;
+        cout << ct.getName() << "\t" << ct.getAge() << "\t\t"  << (ct.getIsFemale() ? "Female" : "Male") << "\t\t"  << ct.getInitial() << "\t\t\t"  << ct.getHeight() << "\t\t\t" << eyeColor << endl;
         cout << endl;
     }
     
