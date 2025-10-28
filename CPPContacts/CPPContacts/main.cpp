@@ -37,7 +37,7 @@ int main(int argc, const char * argv[]) {
                 break;
             case 'D':
             case 'd':{
-                Contact dummyPerson("Alice", 25, true, 'A', 5.6, EyeColor::Blue);
+                Contact dummyPerson("Alice", 25, true, 'A', 1.6, EyeColor::Blue);
                 // push_back appends to the end
                 Contacts.push_back(dummyPerson);
                 cout << "Alice added, here is your current contacts list:\n" << endl;
